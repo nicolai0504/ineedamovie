@@ -1,0 +1,25 @@
+.jumbotron {
+    margin-bottom: 0px;
+    /*background-image: url("/Users/Fredrik/Documents/Prosjekter/takst/static/media/christenheiberg.png");*/
+    background-image: url("http://www.boligverdi.no/uploads/5/4/1/6/5416975/header_images/1383308051.jpg");
+    /*background-image: url('http://upload.wikimedia.org/wikipedia/commons/f/f7/Melbourne_Docklands_-_Yarras_Edge_-_marina_panorama.jpg');*/
+    background-position: center;
+    background-size:85% auto;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+
+.jumbotron { min-height: 375px; }
+
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
