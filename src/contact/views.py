@@ -13,3 +13,8 @@ def home(request):
     #    save_it.save()
     
     return render_to_response("home.html", locals(), context_instance=RequestContext(request))
+
+def action(request):
+	return render_to_response("action.html",
+		locals(),
+		context_instance = RequestContext(request))
