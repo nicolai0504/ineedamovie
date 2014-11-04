@@ -18,3 +18,8 @@ def action(request):
 	return render_to_response("action.html",
 		locals(),
 		context_instance = RequestContext(request))
+
+def contact(request):
+	return render_to_response("contact.html",
+		locals(),
+		context_instance = RequestContext(request))
