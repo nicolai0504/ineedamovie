@@ -1,4 +1,33 @@
 {% extends 'base.html' %}
 {% load staticfiles %}
 
-<button type="button">Click Me!</button>
+{% block content %}
+
+
+ <div class="container marketing">
+ <br/>
+ <br/>
+ <br/>
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row-md-7">
+        <div class="col-md-15">
+          <h2>Contact form</h2>
+
+    <div class = "form-group">
+    <input type="hidden" class="form-control" name="action" value="submit"> 
+    Your name:<br> 
+    <input name="name" type="text" value="" size="30"/><br> 
+    Your email:<br> 
+    <input name="email" type="text" value="" size="30"/><br> 
+    Your message:<br> 
+    <textarea name="message" rows="7" cols="30"></textarea><br> 
+    <input type="submit" value="Send email"/> 
+    </form> 
+        </div>
+        </div>
+        </div><!-- /.col-lg-4 -->
+
+
+
+{% endblock %}
